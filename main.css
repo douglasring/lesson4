@@ -1,0 +1,67 @@
+/* This text color is specified in what's called "hex". You will learn more about this later. */
+h1 {
+	text-align: center;
+	color: #7B3934;
+}
+
+/* change to a nicer font */
+body {
+	font-family: Helvetica;
+}
+
+/* the border-radius attribute makes the corners rounded and the margin clears out space for the stuff inside the lesson divs. Try seeing what  happens when you comment out the rule that says
+
+    padding: 10px; 
+
+by changing it to
+
+	/* padding: 10px; */
+.lesson {
+	background-color: #bdb098;
+	border-radius: 10px;
+	color: #8b0e04;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+/* margins push other elements away */ 
+h2 {
+	margin: 10px;
+	text-align: center;
+	color: #670E07;
+}
+
+.concept {
+	background-color: #F6F1EB;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.concept-content {
+	font-weight: lighter;
+	margin: 6px;
+}
+
+.section-title {
+	font-size: 18px;
+	margin: 8px;
+	text-align: left;
+	color: #8b0e04;
+}
+
+.italic {
+	font-style: italic
+}
+
+.highlight {
+	padding-left:  4px;
+	padding-right: 4px;
+	background-color: #FFFF00;
+}
+
+ul {
+  list-style: square;
+  padding-left: 10px;
+}
